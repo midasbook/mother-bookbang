@@ -10,7 +10,7 @@ const posts = [
     title: "80대 어르신들이 계란 탁구에 진심이 된 이유?",
     excerpt: "마더책방 최인정 단장의 데이케어센터 그림책 인지활동 현장입니다.",
     href: "https://blog.naver.com/booknori2025/224314721430",
-    image: "assets/thumb-senior.svg"
+    image: "assets/thumb-senior.svg?v=2"
   },
   {
     category: "어르신 활동",
@@ -18,7 +18,7 @@ const posts = [
     title: "AI 그림책 '코뿔소 파투'가 만든 특별한 변화",
     excerpt: "박경희 강사가 양평경로당과 신길3동 경로당에서 진행한 어르신 책놀이 현장입니다.",
     href: "https://blog.naver.com/booknori2025/224314683526",
-    image: "assets/thumb-community.svg"
+    image: "assets/thumb-community.svg?v=2"
   },
   {
     category: "어르신 활동",
@@ -26,7 +26,7 @@ const posts = [
     title: "월드컵보다 재미있었다는 방학경로당 책놀이",
     excerpt: "고아라 강사의 그림책 기반 평생학습, 언어인지, 회상활동 수업 기록입니다.",
     href: "https://blog.naver.com/booknori2025/224314533121",
-    image: "assets/thumb-senior.svg"
+    image: "assets/thumb-senior.svg?v=2"
   },
   {
     category: "대외 활동",
@@ -34,7 +34,7 @@ const posts = [
     title: "환경교육 전문가 허은혜 강사 신규 입단",
     excerpt: "환경교육, 평생교육, 독서교육, 보드게임 교육까지 넓은 전문성을 가진 새 활동가 소식입니다.",
     href: "https://blog.naver.com/booknori2025/224314204887",
-    image: "assets/thumb-community.svg"
+    image: "assets/thumb-community.svg?v=2"
   },
   {
     category: "어르신 활동",
@@ -42,7 +42,7 @@ const posts = [
     title: "치매안심센터에 뜬 보드게임 정예군단",
     excerpt: "김지영, 정민희 강사와 최인정 단장이 함께한 인지강화 보드게임 프로그램입니다.",
     href: "https://blog.naver.com/booknori2025/224313492542",
-    image: "assets/thumb-senior.svg"
+    image: "assets/thumb-senior.svg?v=2"
   },
   {
     category: "아동 활동",
@@ -50,7 +50,7 @@ const posts = [
     title: "초등 늘봄교실 구름 무드등 수업",
     excerpt: "고진희 강사의 그림책 독서교실과 창의 체험을 연결한 수업 후기입니다.",
     href: "https://blog.naver.com/booknori2025/224313482168",
-    image: "assets/thumb-child.svg"
+    image: "assets/thumb-child.svg?v=2"
   },
   {
     category: "아동 활동",
@@ -58,7 +58,7 @@ const posts = [
     title: "지역아동센터 문해력 독서수업",
     excerpt: "정민희 강사가 그림책과 글쓰기 활동으로 아이들의 자기표현을 이끈 현장입니다.",
     href: "https://blog.naver.com/booknori2025/224313474829",
-    image: "assets/thumb-child.svg"
+    image: "assets/thumb-child.svg?v=2"
   },
   {
     category: "대외 활동",
@@ -66,7 +66,7 @@ const posts = [
     title: "50플러스부터 치매안심센터까지 확장된 6월 변화",
     excerpt: "신규 경로당, 늘봄학교, 50플러스, AI 그림책 프로젝트로 확장되는 운영 안내입니다.",
     href: "https://blog.naver.com/booknori2025/224295721505",
-    image: "assets/thumb-community.svg"
+    image: "assets/thumb-community.svg?v=2"
   }
 ];
 
@@ -79,7 +79,7 @@ function renderPosts() {
     .map(
       (post) => `
         <article class="post-card">
-          <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='assets/thumb-community.svg'" />
+          <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='assets/thumb-community.svg?v=2'" />
           <div class="post-body">
             <span class="post-meta">${post.category} · ${post.date}</span>
             <h3>${post.title}</h3>
