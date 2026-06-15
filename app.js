@@ -10,7 +10,7 @@ const posts = [
     title: "80대 어르신들이 계란 탁구에 진심이 된 이유?",
     excerpt: "마더책방 최인정 단장의 데이케어센터 그림책 인지활동 현장입니다.",
     href: "https://blog.naver.com/booknori2025/224314721430",
-    image: "https://phinf.pstatic.net/image.nmv/blog_2026_06_13_2025/18EOphzGOB_05.jpg?type=f480x480"
+    image: "assets/thumb-senior.svg"
   },
   {
     category: "어르신 활동",
@@ -18,7 +18,7 @@ const posts = [
     title: "AI 그림책 '코뿔소 파투'가 만든 특별한 변화",
     excerpt: "박경희 강사가 양평경로당과 신길3동 경로당에서 진행한 어르신 책놀이 현장입니다.",
     href: "https://blog.naver.com/booknori2025/224314683526",
-    image: "https://blogthumb.pstatic.net/MjAyNjA2MTNfOTcg/MDAxNzgxMzE4NTUxNTY2.ct00km-fl2B0Croo46VDlDRCk0VcNsp_IcL4C2nAwFMg.anXuwFOD9JfBKrMONF3OwVg7EajQ1ZllQn-dMc0C118g.JPEG/KakaoTalk_20260612_152212128_02.jpg?type=s3"
+    image: "assets/thumb-community.svg"
   },
   {
     category: "어르신 활동",
@@ -26,7 +26,7 @@ const posts = [
     title: "월드컵보다 재미있었다는 방학경로당 책놀이",
     excerpt: "고아라 강사의 그림책 기반 평생학습, 언어인지, 회상활동 수업 기록입니다.",
     href: "https://blog.naver.com/booknori2025/224314533121",
-    image: "https://blogthumb.pstatic.net/MjAyNjA2MTNfMjg3/MDAxNzgxMzAxMTQ1MjQ2.vduRz28ufWGgCku4Gq_EvL68PEjbKAlKHmva2tyfEoUg.jX9yY8d7EbuiKDuTS7gvb0ImhX4aW5KQ5ooxK1gXmncg.JPEG/KakaoTalk_20260612_145341138_19.jpg?type=s3"
+    image: "assets/thumb-senior.svg"
   },
   {
     category: "대외 활동",
@@ -34,7 +34,7 @@ const posts = [
     title: "환경교육 전문가 허은혜 강사 신규 입단",
     excerpt: "환경교육, 평생교육, 독서교육, 보드게임 교육까지 넓은 전문성을 가진 새 활동가 소식입니다.",
     href: "https://blog.naver.com/booknori2025/224314204887",
-    image: "https://blogthumb.pstatic.net/MjAyNjA2MTJfMTEx/MDAxNzgxMjU5NTczNjQw.k5b61mWgvBczQ0kWJ_L1mxiyRjaqFJCaR1ODeDhXkgAg.5LncAWNhMuyA_o0Me0gMITIaT3Ia22GZ0tmWPNvso0Yg.PNG/ChatGPT_Image_2026%B3%E2_6%BF%F9_12%C0%CF_%BF%C0%C8%C4_07_19_19.png?type=s3"
+    image: "assets/thumb-community.svg"
   },
   {
     category: "어르신 활동",
@@ -42,7 +42,7 @@ const posts = [
     title: "치매안심센터에 뜬 보드게임 정예군단",
     excerpt: "김지영, 정민희 강사와 최인정 단장이 함께한 인지강화 보드게임 프로그램입니다.",
     href: "https://blog.naver.com/booknori2025/224313492542",
-    image: "https://phinf.pstatic.net/image.nmv/blog_2026_06_12_2807/0xgrEu5rFf_01.jpg?type=f480x480"
+    image: "assets/thumb-senior.svg"
   },
   {
     category: "아동 활동",
@@ -50,7 +50,7 @@ const posts = [
     title: "초등 늘봄교실 구름 무드등 수업",
     excerpt: "고진희 강사의 그림책 독서교실과 창의 체험을 연결한 수업 후기입니다.",
     href: "https://blog.naver.com/booknori2025/224313482168",
-    image: "https://blogthumb.pstatic.net/MjAyNjA2MTJfMTM5/MDAxNzgxMjExODQxNTU1.txachhGvwT7f9btMtlKr-z9suPZytpTBjA20yRFNPXkg.Xl9kMukoQJITBSLDQNbMSx3aD3S9j2vPIo_fxzsQPP8g.JPEG/KakaoTalk_20260611_164842250_04.jpg?type=s3"
+    image: "assets/thumb-child.svg"
   },
   {
     category: "아동 활동",
@@ -58,7 +58,7 @@ const posts = [
     title: "지역아동센터 문해력 독서수업",
     excerpt: "정민희 강사가 그림책과 글쓰기 활동으로 아이들의 자기표현을 이끈 현장입니다.",
     href: "https://blog.naver.com/booknori2025/224313474829",
-    image: "https://blogthumb.pstatic.net/MjAyNjA2MTJfMzAw/MDAxNzgxMjEwNzI4NDY1.XTwRIoMGJcI9reSAqt19AZ3PREJ4S7HUCuCY69Iav58g.AtvYlzjhMWVJhbVazzUyYazBxTHe_5D53DDw2Xk4b2kg.PNG/KakaoTalk_20260612_054112763.png?type=s3"
+    image: "assets/thumb-child.svg"
   },
   {
     category: "대외 활동",
@@ -66,7 +66,7 @@ const posts = [
     title: "50플러스부터 치매안심센터까지 확장된 6월 변화",
     excerpt: "신규 경로당, 늘봄학교, 50플러스, AI 그림책 프로젝트로 확장되는 운영 안내입니다.",
     href: "https://blog.naver.com/booknori2025/224295721505",
-    image: "https://blogthumb.pstatic.net/MjAyNjA1MjVfMTkx/MDAxNzc5Njc1MDA3NDg4.pGaGCusEQhr4NAB_HTpjQvpkh1YKmDqdbAnIVy6gQNIg.h1xSBdXGC24uquAD9Bikyr4z4H-j3DbvzwVOCynw7jIg.PNG/%B1%D7%B8%B2%C3%A5%2C%C3%BC%C1%B6%2CAI%B7%CE_%B8%B8%B5%E5%B4%C2%C1%A6_2%C0%C7_%C0%CE%BB%FD_%B0%A1%C0%CC%B5%E5.png?type=s3"
+    image: "assets/thumb-community.svg"
   }
 ];
 
@@ -79,7 +79,7 @@ function renderPosts() {
     .map(
       (post) => `
         <article class="post-card">
-          <img src="${post.image}" alt="${post.title}" loading="lazy" />
+          <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='assets/thumb-community.svg'" />
           <div class="post-body">
             <span class="post-meta">${post.category} · ${post.date}</span>
             <h3>${post.title}</h3>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="마더책방 공동체 활동 일러스트">
+  <rect width="640" height="440" fill="#FFF8E8"/>
+  <rect x="68" y="70" width="504" height="274" rx="36" fill="#FDFDF7" stroke="#E5C987" stroke-width="7"/>
+  <path d="M128 126h384M128 184h384M128 242h384" stroke="#E7E0C9" stroke-width="14" stroke-linecap="round"/>
+  <rect x="150" y="112" width="44" height="112" rx="8" fill="#F48A79"/>
+  <rect x="214" y="103" width="44" height="121" rx="8" fill="#F6D86F"/>
+  <rect x="278" y="118" width="44" height="106" rx="8" fill="#8CB579"/>
+  <rect x="342" y="108" width="44" height="116" rx="8" fill="#9BC9D9"/>
+  <rect x="406" y="123" width="44" height="101" rx="8" fill="#F9C9B7"/>
+  <path d="M168 292c49-30 99-30 149 0v74c-50-30-100-30-149 0v-74Z" fill="#FFFFFF" stroke="#2F6B4F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M317 292c50-30 100-30 149 0v74c-50-30-100-30-149 0v-74Z" fill="#FBE4DE" stroke="#2F6B4F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M85 331c18-40 58-48 84-13-34 3-59 7-84 13ZM556 331c-18-40-58-48-84-13 34 3 59 7 84 13Z" fill="#A6C8B2"/>
+  <path d="M70 78h38M89 59v38M531 58h38M550 39v38" stroke="#F6D86F" stroke-width="9" stroke-linecap="round"/>
+</svg>

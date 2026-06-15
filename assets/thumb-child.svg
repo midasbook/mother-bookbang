@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="아동 그림책놀이 일러스트">
+  <rect width="640" height="440" fill="#E7F3F6"/>
+  <path d="M0 312c88-29 168-22 239 22 58 37 130 39 216 6 80-30 142-26 185 12v88H0V312Z" fill="#FBE4DE"/>
+  <rect x="88" y="78" width="464" height="264" rx="38" fill="#FFFDF6" stroke="#A6C8B2" stroke-width="7"/>
+  <circle cx="220" cy="172" r="48" fill="#F9C9B7"/>
+  <path d="M177 158c12-47 79-60 98-9-35-15-66-12-98 9Z" fill="#76513B"/>
+  <circle cx="420" cy="172" r="48" fill="#F9C9B7"/>
+  <path d="M377 158c12-47 79-60 98-9-35-15-66-12-98 9Z" fill="#7E5035"/>
+  <path d="M195 190c19 16 36 16 52 0M395 190c19 16 36 16 52 0" fill="none" stroke="#814F3A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M166 254c50-31 101-31 153 0v80c-52-31-103-31-153 0v-80Z" fill="#F6D86F" stroke="#2F6B4F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M319 254c52-31 103-31 153 0v80c-50-31-101-31-153 0v-80Z" fill="#FFFFFF" stroke="#2F6B4F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M60 106c22-16 44-16 66 0M520 92c22-16 44-16 66 0" stroke="#D87562" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="96" cy="284" r="18" fill="#8CB579"/>
+  <circle cx="538" cy="294" r="16" fill="#F48A79"/>
+</svg>
