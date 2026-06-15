@@ -259,6 +259,99 @@ h3 {
   line-height: 1.25;
 }
 
+.leader-section {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(30px, 6vw, 78px);
+  align-items: center;
+  padding: clamp(58px, 8vw, 106px) clamp(18px, 7vw, 96px);
+  background:
+    radial-gradient(circle at 12% 22%, rgba(246, 216, 111, 0.28), transparent 28%),
+    linear-gradient(135deg, #fff8e8 0%, #fbe4de 52%, #eef6e9 100%);
+  border-top: 1px solid rgba(216, 117, 98, 0.16);
+  border-bottom: 1px solid rgba(47, 107, 79, 0.14);
+}
+
+.leader-portrait {
+  position: relative;
+  justify-self: center;
+  width: min(410px, 100%);
+}
+
+.leader-portrait::before,
+.leader-portrait::after {
+  position: absolute;
+  content: "";
+  border-radius: 999px;
+  z-index: 0;
+}
+
+.leader-portrait::before {
+  inset: -18px;
+  background: rgba(255, 255, 255, 0.64);
+  border: 1px solid rgba(216, 117, 98, 0.2);
+  box-shadow: var(--shadow);
+}
+
+.leader-portrait::after {
+  right: -14px;
+  bottom: 28px;
+  width: 76px;
+  height: 76px;
+  background: #f6d86f;
+  box-shadow: -226px -218px 0 -22px #f9c9b7, -180px 198px 0 -28px #8cb579;
+}
+
+.leader-portrait img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 10px solid #fffdf6;
+  border-radius: 999px;
+  box-shadow: 0 20px 48px rgba(47, 72, 58, 0.18);
+}
+
+.leader-copy {
+  max-width: 760px;
+}
+
+.leader-lead {
+  margin: 22px 0 18px;
+  color: #405348;
+  font-size: clamp(18px, 2vw, 22px);
+  font-weight: 700;
+}
+
+.leader-copy blockquote {
+  margin: 0 0 24px;
+  padding: 20px 22px;
+  color: #8d5549;
+  background: rgba(255, 255, 255, 0.58);
+  border-left: 6px solid var(--coral);
+  border-radius: 8px;
+  font-size: clamp(17px, 2vw, 21px);
+  font-weight: 900;
+  word-break: keep-all;
+}
+
+.leader-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.leader-points span {
+  padding: 10px 14px;
+  color: #20352b;
+  background: #fffdf6;
+  border: 1px solid rgba(47, 107, 79, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 10px 22px rgba(47, 72, 58, 0.08);
+  font-weight: 900;
+}
+
 .section {
   padding: clamp(58px, 8vw, 104px) clamp(18px, 7vw, 96px);
 }
@@ -491,12 +584,17 @@ h3 {
   }
 
   .intro-band,
-  .people-band {
+  .people-band,
+  .leader-section {
     grid-template-columns: 1fr;
   }
 
   .chip-list {
     justify-content: flex-start;
+  }
+
+  .leader-portrait {
+    width: min(340px, 86vw);
   }
 }
 
